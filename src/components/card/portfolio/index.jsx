@@ -9,7 +9,8 @@ const PortfolioCardComponent = styled.div`
     align-items: center;
     margin: 2rem 0;
     padding: 1rem 0;
-    border: 2px solid ${(props) => props.theme.textColor};
+    border-left: 1rem solid var(--grey);
+    background: white;
     border-radius: 10px;
     padding: 10px 20px;
 
@@ -28,13 +29,13 @@ const PortfolioInfo = styled.div`
 `;
 
 const SectionTitle = styled.label`
-    color: ${(props) => props.theme.textColor};
     font-size: 24px;
     font-weight: 600;
 `;
 
 const PortfolioThumb = styled.img`
     width: 70%;
+    border-radius: 10px;
 
     @media only screen and (max-width: 720px){
         width: 100%;
