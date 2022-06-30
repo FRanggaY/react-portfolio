@@ -6,10 +6,6 @@
 
 Repositori ini berisi kumpulan code pembuatan portfolio yang diimplementasikan dengan menggunakan React Js.
 
-## Link
-
-[Netlify](https://franciscusranggayogianto.netlify.app/)
-
 ## Project Setup
 ```
 yarn install
